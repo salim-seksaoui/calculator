@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+
+body {
+  background-color: blanchedalmond;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-wrapper {
+  background-color: white;
+  width: 400px;
+  border-radius: 25px;
+}
+
+.row {
+  display: flex;
+}
+
+.title {
+  color: blue;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
